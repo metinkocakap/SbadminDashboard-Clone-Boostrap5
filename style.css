@@ -1,11 +1,45 @@
-@import url(node_modules/bootstrap/scss/bootstrap.scss);
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&400&600&700&display=swap%27');
+* {
+  font-family: 'Mulish', sans-serif;
+}
 .Loginbody{
     background-color: #4e73df;
 }
+.sidebar-background{
+    background-color: #4e73df;
+}
 
+.rotate-n-15 {
+    transform: rotate(-15deg);
+  }
 .bg-login-image {
     background: url(assets/kopek.jfif);
     background-position: center;
     background-size: cover;
     border-radius: 8px 0 0 8px ;
   }
+
+  .img-profile{
+    width: 32px;
+    height: 32px;
+  }
+ .topbar-divider{
+  width: 0;
+  border-right: 1px solid #d3d9eb;
+  height:35px ;
+  margin: auto 1rem;
+ }
+
+ .logo-color{
+   color: #d3d9eb;
+ }
+ .badge-height{
+   font-size: 8px;
+ }
+ .bg-color{
+   background-color: #e8e9f2f3;
+ }
+ .text-xs{
+   font-size: 10px;
+   font-weight: 700;
+ }
